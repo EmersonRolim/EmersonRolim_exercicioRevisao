@@ -6,7 +6,7 @@ public class Main4 {
     public static void main (String args []) {
         Scanner s = new Scanner(System.in);
         int valor = 0;
-        while (valor <= 100) {
+        while (valor >= 0 && valor <= 100) {
             System.out.print("Informar o Valor: ");
             valor = s.nextInt();
 
